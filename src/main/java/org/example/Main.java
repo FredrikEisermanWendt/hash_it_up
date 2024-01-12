@@ -5,7 +5,7 @@ public class Main {
         
         HashFunction hashFunction = new HashFunction();
         
-        String input1 = "TestPassword1234";
+        String input1 = "TestPassword123";
         String input2 = "TestPassword124";
         
         System.out.println(input1);

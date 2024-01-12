@@ -5,8 +5,14 @@ public class Main {
         
         HashFunction hashFunction = new HashFunction();
         
-        System.out.println("Fredrik12345");
-        System.out.println(hashFunction.hash("Fredrik12345"));
+        String input1 = "TestPassword1234";
+        String input2 = "TestPassword124";
+        
+        System.out.println(input1);
+        System.out.println(hashFunction.hash(input1));
+        
+        System.out.println(input2);
+        System.out.println(hashFunction.hash(input2));
         // Tove was here
         
     }
